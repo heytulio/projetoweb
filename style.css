@@ -350,11 +350,44 @@ footer > ul > li > a {
 
 #reserva-main {
   display: flex;
-  width: 1200px;
+  width: 97vw;
   height: 500px;
   justify-content: center;
   padding: 50px;
+  margin: 30px;
   align-items: center;
+  flex-direction: column;
+}
+
+.reserva-display {
+  display: flex;
+  margin: 10px;
+}
+
+.reserva-display > form {
+  width: 400px;
+  height: 300px;
+  background-color: #4f000b;
+}
+
+.reserva-display > form > fieldset {
+  height: 300px;
+  border: none;
+  padding: 20px;
+}
+
+.form-data > legend {
+  text-align: center;
+  font-size: 35px;
+  font-family: "Inknut Antiqua", serif;
+  color: #fff;
+}
+
+.form-data > label {
+  color: #fff;
+}
+
+.form-data > input {
 }
 
 /* teste */
