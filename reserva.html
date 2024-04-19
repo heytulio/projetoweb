@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="img/icons/Vector.png" />
+    <title>Reserva no Jhow</title>
+  </head>
+  <body>
+    <header>
+      <a href="index.html"
+        ><img src="img/jhow.svg" alt="" class="logo-header"
+      /></a>
+      <nav>
+        <ul class="navbar">
+          <li><a href="cardapio.html" class="button-navbar">CARDAPIO</a></li>
+          <li><a href="reserva.html" class="button-navbar">RESERVA</a></li>
+          <li><a href="#" class="button-navbar">DELIVERY</a></li>
+          <li><a href="#" class="button-navbar">LOGIN</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="reserva-main">
+      <h1>Faça sua reserva no Jhow!</h1>
+      <div>
+        <div>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3942.091648562914!2d-36.37187572498299!3d-8.871060091184138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7076cb785aeb6bb%3A0x417a51a297203a0!2sJHOW%20BAR%20E%20RESTAURANTE!5e0!3m2!1spt-BR!2sbr!4v1713494560048!5m2!1spt-BR!2sbr"
+            width="400"
+            height="300"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <form action="https://localhost:54545/destino" method="post">
+          <fieldset>
+            <legend>Reserva</legend>
+            <label for="nome-reserva">Nome</label>
+            <input
+              type="text"
+              id="nome-reserva"
+              name="nome-reserva"
+              required
+              placeholder="Ex.: João Silva"
+            /><br />
+
+            <label for="data-reserva">Data</label>
+            <input
+              type="date"
+              id="data-reserva"
+              name="data-reserva"
+              placeholder="Ex.: dd/MM/aaaa"
+              required
+            /><br />
+
+            <label for="email">Email</label>
+            <input
+              type="text"
+              id="email"
+              name="email"
+              placeholder="Ex.: exemplo@dominio.com"
+              required
+            /><br />
+
+            <label for="telefone-reserva">Telefone</label>
+            <input
+              type="text"
+              id="telefone-reserva"
+              name="telefone-reserva"
+              placeholder="(DDD) 99911-1199"
+              required
+            /><br />
+
+            <label for="qtd-reserva"> Quantidade de Pessoas</label>
+            <input
+              type="text"
+              id="qtd-reserva"
+              name="qtd-reserva"
+              required
+              placeholder="Digite aqui"
+            /><br />
+          </fieldset>
+        </form>
+      </div>
+    </main>
+
+    <footer>
+      <nav>
+        <ul>
+          <li>
+            <a href="#"
+              ><img src="img/icons/facebook.svg" alt="facebook icon"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="img/icons/instagram.svg" alt="instagram icon"
+            /></a>
+          </li>
+          <li>
+            <a href="#"><img src="img/icons/tiktok.svg" alt="tiktok icon" /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="img/icons/twitter.svg" alt="twitter icon"
+            /></a>
+          </li>
+        </ul>
+      </nav>
+      <p>
+        Todos os direitos reservados.<br />
+        2024 ©
+      </p>
+      <ul>
+        <li><a href="#">Contato</a></li>
+        <li><a href="#">Sobre Nós</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
