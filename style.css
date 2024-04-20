@@ -420,7 +420,7 @@ footer > ul > li > a {
   justify-content: center;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 1rem 0;
+  padding: 0.5rem 0;
 }
 .input-area {
   font-family: "inknut Antiqua";
@@ -430,7 +430,7 @@ footer > ul > li > a {
 }
 .input-area input {
   margin: 0rem 0;
-  padding: 0.4rem 0rem;
+  
 
   background-color: #4f000b;
   border-radius: 5px;
@@ -555,8 +555,90 @@ footer > ul > li > a {
   grid-template-columns: 1fr 20px;
   align-items: center;
   justify-content: center;
+  padding: 20px;
+  padding-right: 100px ;
+  border: none;
 }
+
+.delivery-pedido > 
 
 .main-delivery > section > div {
   height: 500px;
+}
+
+.continue-button{
+  margin-left: 7.0rem;
+}
+
+.pedidos{
+  background-color: #4f000b;
+  border-radius: 10px;
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: none;
+  align-items: center;
+}
+.pedidos > a {
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  width: 12.5rem;
+  justify-content: center;
+  align-items: center;
+  height: 3.516rem;
+  margin: 1rem;
+  border-radius: 10px;
+  font-weight: 600;
+  flex-wrap: wrap;
+  margin-left: 150px;
+}
+
+/* login */
+
+.login-main{
+  margin: 50px;
+  height: 500px;
+  width: 500px;
+  background-color: #4f000b;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  border: none;
+
+}
+
+.input-grouplogin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+  flex-direction: column;
+}
+
+.main-login {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.login-display {
+  display: flex;
+  margin: 10px;
+}
+
+.login-display > form {
+  width: 500px;
+  height: 450px;
+  background-color: #4f000b;
+  border-radius: 10px;
+}
+
+.login-display > form > fieldset {
+  height: 500px;
+  border: none;
+  padding: 20px;
 }

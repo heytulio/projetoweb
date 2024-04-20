@@ -25,7 +25,7 @@
           </li>
           <li><a href="reserva.html" class="button-navbar">RESERVA</a></li>
           <li><a href="delivery.html" class="button-navbar-1">DELIVERY</a></li>
-          <li><a href="#" class="button-navbar">LOGIN</a></li>
+          <li><a href="login.html" class="button-navbar">LOGIN</a></li>
         </ul>
       </nav>
     </header>
@@ -34,36 +34,39 @@
       <h1>Faça seu pedido no Jhow!</h1>
 
       <section>
-        <div>
-          <h2>Escolha os itens do seu pedido</h2>
+        <div class="pedidos">
+          <h2 style="color: #ff9b54;">Escolha os itens do seu pedido</h2>
           <form action="" method="post">
             <fieldset class="delivery-pedido">
-              <label for="item1">Hamburguer</label>
+              <label class="label-nome" for="item1">Hamburguer</label>
               <input type="checkbox" name="item1" id="item1" />
-              <label for="item2">Feijoada</label>
+              <label class="label-nome" for="item2">Feijoada</label>
               <input type="checkbox" name="item2" id="item2" />
-              <label for="item3">Arroz Carreteiro</label>
+              <label class="label-nome" for="item3">Arroz Carreteiro</label>
               <input type="checkbox" name="item3" id="item3" />
-              <label for="item4">File a Parmegiana</label>
+              <label class="label-nome" for="item4">File a Parmegiana</label>
               <input type="checkbox" name="item4" id="item4" />
-              <label for="item5">Bife a Cavalo</label>
+              <label class="label-nome" for="item5">Bife a Cavalo</label>
               <input type="checkbox" name="item5" id="item5" />
-              <label for="item6">Macarronada</label>
+              <label class="label-nome" for="item6">Macarronada</label>
               <input type="checkbox" name="item6" id="item6" />
 
               <div>
-                <p style="text-align: center">Bebidas</p>
-                <label for="cerv">Cerveja</label>
+                <br>
+                <p style="text-align: center" class="label-nome" >Bebidas</p>
+                <br>
+                <label class="label-nome" style="padding-left: 40px;" for="cerv">Cerveja</label>
                 <input type="checkbox" name="bebidas" id="cerv" />
-                <label for="chopp">Chopp</label>
+                <label class="label-nome" for="chopp">Chopp</label>
                 <input type="checkbox" name="bebidas" id="chopp" />
-                <label for="cachaca">Cachaça</label>
+                <label class="label-nome" for="cachaca">Cachaça</label>
                 <input type="checkbox" name="bebidas" id="cachaca" />
-                <label for="whisky">Whisky</label>
+                <label class="label-nome" for="whisky">Whisky</label>
                 <input type="checkbox" name="bebidas" id="whisky" />
               </div>
             </fieldset>
           </form>
+          <a href="cardapio.html" class="button-navbar">ENVIAR</a>
         </div>
         <aside class="aside-delivery">
           <h2>Segue o nosso cardapio</h2>
