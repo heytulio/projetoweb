@@ -14,16 +14,17 @@
     <title>Reserva no Jhow</title>
   </head>
   <body>
-    
     <header>
       <a href="index.html"
         ><img src="img/jhow.svg" alt="" class="logo-header"
       /></a>
       <nav>
         <ul class="navbar">
-          <li><a href="cardapio.html" class="button-navbar">CARDAPIO</a></li>
-          <li><a href="reserva.html" class="button-navbar">RESERVA</a></li>
-          <li><a href="#" class="button-navbar">DELIVERY</a></li>
+          <li>
+            <a href="sobrenos.html " class="button-navbar">SOBRE NÓS</a>
+          </li>
+          <li><a href="reserva.html" class="button-navbar-1">RESERVA</a></li>
+          <li><a href="delivery.html" class="button-navbar">DELIVERY</a></li>
           <li><a href="#" class="button-navbar">LOGIN</a></li>
         </ul>
       </nav>
@@ -45,79 +46,79 @@
         </div>
         <form action="https://localhost:54545/destino" method="post">
           <fieldset class="form-data">
-            <legend   style="color: #ff9b54;">Reserva</legend>
+            <legend style="color: #ff9b54">Reserva</legend>
             <div class="input-group">
               <div class="input-area">
                 <label class="label-nome" for="nome-reserva">Nome</label>
-              <input
-                type="text"
-                id="nome-reserva"
-                name="nome-reserva"
-                required
-                placeholder="Ex.: João Silva"
-              /><br />
+                <input
+                  type="text"
+                  id="nome-reserva"
+                  name="nome-reserva"
+                  required
+                  placeholder="Ex.: João Silva"
+                /><br />
               </div>
               <div class="input-area">
-              <label class="label-nome" for="data-reserva">Data</label>
-              <input
-                type="datetime"
-                id="data-reserva"
-                name="data-reserva"
-                placeholder="Ex.: dd/MM/aaaa"
-                required
-              /><br />
-            </div>
-            <div class="input-area">
-              <label class="label-nome" for="qtd-reserva"> Quantidade de Pessoas</label>
-              <input
-                type="text"
-                id="qtd-reserva"
-                name="qtd-reserva"
-                required
-                placeholder="Digite aqui"
-              /><br />
-            </div>
-            <div class="input-area">
-              
-              <label class="label-nome" for="horario-reserva">Horario</label>
-              <input
-                type="text"
-                id="horario-reserva"
-                name="horario-reserva"
-                placeholder="11:00"
-                required
-              /><br />
-            </div>
-            <div class="input-area">
-               <label class="label-nome" for="email">Email</label>
-              <input
-                type="text"
-                id="email"
-                name="email"
-                placeholder="Ex.: exemplo@dominio.com"
-                required
-              /><br />
+                <label class="label-nome" for="data-reserva">Data</label>
+                <input
+                  type="datetime"
+                  id="data-reserva"
+                  name="data-reserva"
+                  placeholder="Ex.: dd/MM/aaaa"
+                  required
+                /><br />
               </div>
               <div class="input-area">
-                <label class="label-nome" for="telefone-reserva">Telefone</label>
-              <input
-                type="text"
-                id="telefone-reserva"
-                name="telefone-reserva"
-                placeholder="(DDD) 99911-1199"
-                required
-              /><br />
-               </div>
-               <a href="#" class="button-navbar">ENVIAR</a>
-                      
-                      </div>      
-                     
+                <label class="label-nome" for="qtd-reserva">
+                  Quantidade de Pessoas</label
+                >
+                <input
+                  type="text"
+                  id="qtd-reserva"
+                  name="qtd-reserva"
+                  required
+                  placeholder="Digite aqui"
+                /><br />
+              </div>
+              <div class="input-area">
+                <label class="label-nome" for="horario-reserva">Horario</label>
+                <input
+                  type="text"
+                  id="horario-reserva"
+                  name="horario-reserva"
+                  placeholder="11:00"
+                  required
+                /><br />
+              </div>
+              <div class="input-area">
+                <label class="label-nome" for="email">Email</label>
+                <input
+                  type="text"
+                  id="email"
+                  name="email"
+                  placeholder="Ex.: exemplo@dominio.com"
+                  required
+                /><br />
+              </div>
+              <div class="input-area">
+                <label class="label-nome" for="telefone-reserva"
+                  >Telefone</label
+                >
+                <input
+                  type="text"
+                  id="telefone-reserva"
+                  name="telefone-reserva"
+                  placeholder="(DDD) 99911-1199"
+                  required
+                /><br />
+              </div>
+              <a href="#" class="button-navbar">ENVIAR</a>
+            </div>
           </fieldset>
         </form>
-
       </div>
-      <br>
-      <br>
+      <br />
+      <br />
     </main>
 
     <footer>
@@ -148,8 +149,8 @@
         2024 ©
       </p>
       <ul>
-        <li><a href="#">Contato</a></li>
-        <li><a href="#">Sobre Nós</a></li>
+        <li><a href="mailto:jhow@dominio.com">Contato</a></li>
+        <li><a href="sobrenos.html">Sobre Nós</a></li>
       </ul>
     </footer>
   </body>
